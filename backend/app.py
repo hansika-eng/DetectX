@@ -290,7 +290,7 @@ def home():
 def run_prediction(feature_dict):
     df = pd.DataFrame([feature_dict])
     df = df.reindex(columns=features, fill_value=0)
-
+    
     prediction = model.predict(df)[0]
     probability = float(model.predict_proba(df)[0][1])
 

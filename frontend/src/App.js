@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://detectx-7jee.onrender.com";;
 
 const DetectXLogo = () => (
   <span className="logo-mark" aria-hidden="true">
